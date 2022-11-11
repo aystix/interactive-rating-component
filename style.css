@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container, .thankyou {
+    background-color:  hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 24rem;
+}
+.container img {
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.container h1 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+.container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+.container ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style-type: none;
+}
+.container ul li button {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color:hsl(213, 20%, 22%) ;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+.submit {
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 0 0.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thankyou img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+.thankyou #top-p {
+    color:hsl(25, 97%, 53%) ;
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.9rem;
+}
+.thankyou h2 {
+    color: #fff;
+}
+.thankyou p {
+    color: hsl(217, 12%, 63%);
+}
+.hidden {
+    display: none;
+}
